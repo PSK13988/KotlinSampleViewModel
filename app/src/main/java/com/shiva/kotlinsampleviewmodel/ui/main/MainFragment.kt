@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.shiva.kotlinsampleviewmodel.R
 
 class MainFragment : Fragment() {
@@ -20,6 +21,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        Toast.makeText(activity, "Toast Message for testing", Toast.LENGTH_LONG).show()
         return inflater.inflate(R.layout.main_fragment, container, false)
     }
 
