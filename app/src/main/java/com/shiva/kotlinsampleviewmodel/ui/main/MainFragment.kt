@@ -21,7 +21,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        Toast.makeText(activity, " Toast Message for testing", Toast.LENGTH_LONG).show()
+        Toast.makeText(activity, " Toast Message for testing ", Toast.LENGTH_LONG).show()
         return inflater.inflate(R.layout.main_fragment, container, false)
     }
 
